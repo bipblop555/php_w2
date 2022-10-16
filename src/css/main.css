@@ -1,0 +1,49 @@
+@import'./reset.css';
+
+h1{
+    text-align: center;
+    padding-bottom: 1em;
+}
+strong{
+    color: rgb(98, 98, 255);
+}
+.form_container{
+    margin: 0 auto;
+}
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: rgb(98, 98, 255);
+}
+textarea#post_content {
+    width: 30vw;
+    height: 10vh;
+}
+.messages{
+    width: 50vw;
+    height: 25px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    padding: 1em;
+    margin:1em
+}
+
+p.date{
+    text-align: end;
+    font-style: italic;
+
+    color: rgb(110, 110, 110);
+}

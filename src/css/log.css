@@ -1,0 +1,30 @@
+@import'./reset.css';
+
+form.log_form {
+    padding: 1em;
+    top: 50%;
+    transform: translateY(50%);
+}
+.log_form{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+    width: 25%;
+    margin: 0 auto;
+}
+input{
+    padding: 1em;
+    margin: 1em;
+}
+input[type=submit]{
+    border: 1px solid lightgray;
+}
+input[type=submit],
+.log_form{
+    border-radius: 5px;
+    outline: none;
+}
+input:focus{
+    outline: none;
+}
